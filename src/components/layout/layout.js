@@ -10,7 +10,7 @@ export default ({ children }) => (
                     <h1>Nav</h1>
                 </div>
             </div>
-            <img src={hero} style={{ width: '100%' }} />
+            {/* <img src={hero} style={{ width: '100%' }} /> */}
         </div>
         <div style={{ flex: 1 }} className={[styles.contentContainer, styles.debug, styles.pageContainer].join(' ')} >
             {children}
